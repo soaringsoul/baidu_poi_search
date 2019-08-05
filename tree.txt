@@ -1,0 +1,25 @@
+﻿├── ChinaArea
+│   ├── China_area.py
+│   └── __init__.py
+├── Crawler
+│   ├── BaiduMapCrawler.py
+│   └── __init__.py
+├── main.py
+├── Mainwindow
+│   ├── __init__.py
+│   └── Mainwindow.py
+├── qtpandas_1.0.4_v2
+├── README.md
+├── requirements.txt
+└── resource
+    ├── image
+    │   ├── run_main.gif
+    │   ├── spider2.png
+    │   ├── spider3.png
+    │   ├── spider.png
+    │   ├── 导出结果界面.jpg
+    │   ├── 启动界面.jpg
+    │   ├── 抓取结果.jpg
+    │   └── 抓取时界面.jpg
+    └── QSS
+        └── Mainwindow.qss
