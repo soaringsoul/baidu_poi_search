@@ -43,12 +43,11 @@
 
 ## 准备工作
 
+推荐使用virualenv 进行如下操作。
+
 ### 1 安装依赖库
-* python 依赖库参考项目根目录 `requirements.txt`（可以直接使用pip install requirements.txt安装）
+* python install -r  `requirements.txt`
 
-	​	
-
-### 安装依赖库过程中常见问题与解决方法
 
 ### 2 安装最新版本的qtpandas 
 
