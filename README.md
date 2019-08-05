@@ -90,10 +90,10 @@ qtpandas github地址：https://github.com/draperjames/qtpandas
 
 ## 联系我
 
-你可以在这里找到我：[夜雨微寒的个人主页](https://xugongli.github.io/about/)
+如果在使用过程中遇到无法解决的问题，你可以在这里找到我：[夜雨微寒的个人主页](https://xugongli.github.io/about/)；
 
-也可以在本界面的主窗口中,点击`关于我`，访问[我的主页](https://xugongli.github.io/about/)，或者给我留言。
+另外，也可以通过提交issue的方式提交问题。
 
-![Alt text](https://github.com/xugongli/GithubProjectImages/blob/master/PyQt5-BaiduMapCrawler_Images//about_me.gif)  
+
 
 
