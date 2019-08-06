@@ -10,37 +10,16 @@
 
 
 
-## 功能和项目文档结构：
-1.功能
-
+## 功能：
 * 根据关键词（街道、酒店或其他标志性建筑物等），查询指定区域周边的商户、酒店、交通位置等兴趣点信息  
 
 * 将采集结果以表格形式在界面实时呈现
 
 * 将采集结果导出为Excel文件  
 
-2.项目结构
->├── ChinaArea 全国省市数据  
-│   ├── China_area.py  
-│   └── __init__.py  
-├── Crawler 采集程序  
-│   ├── BaiduMapCrawler.py    
-│   └── __init__.py  
-├── main.py 主程序  
-├── Mainwindow Ui界面文件  
-│   ├── __init__.py  
-│   └── Mainwindow.py  
-├── qtpandas
 
-├── README.md 项目文档说明  
-├── requirements.txt 依赖库文件    
-└── resource 资源文件  
-    ├── image 界面加载图标以及程序运行截图  
-    │   ├── run_main.gif   
-    └── QSS  
-        └── Mainwindow.qss  界面美化文件
 
-## 准备工作
+## 使用
 
 推荐使用virualenv 进行如下操作。
 
@@ -68,7 +47,7 @@ qtpandas github地址：https://github.com/draperjames/qtpandas
 
 
 
-## 使用说明
+## 3 运行
 
 1. 执行 python run.py，选择省、市，然后输入关键词，例：天津市 便利店
 
