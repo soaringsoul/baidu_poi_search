@@ -118,9 +118,9 @@ class BaiduMapCrawler_main(QtWidgets.QMainWindow, Ui_MainWindow):
             '曾用名',
             '行业及代码',
             'aoi',
-            '经纬度范围',
-            '经度',
-            '纬度']
+            '未知列范围',
+            '未知列1',
+            '未知列2']
         # 将列表数据转化为dataframe
         df = DataFrame(self.result, columns=columns_name)
         return df

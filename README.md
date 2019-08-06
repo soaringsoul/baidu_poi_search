@@ -31,7 +31,7 @@
 ├── Mainwindow Ui界面文件  
 │   ├── __init__.py  
 │   └── Mainwindow.py  
-├── qtpandas_1.0.4 修正后的qtpandas安装包   
+├── qtpandas
 ├── README.md 项目文档说明  
 ├── requirements.txt 依赖库文件    
 └── resource 资源文件  
@@ -64,8 +64,8 @@ qtpandas github地址：https://github.com/draperjames/qtpandas
 
 如果`git clone`较慢，这里提供一个百度云的下载链接:
 
-> 链接：https://pan.baidu.com/s/1V0FmXTh7P54DIGkmVPz4iw 
-> 提取码：wl9e 
+> 链接：https://pan.baidu.com/s/157Dlar8HcBSLQlvwWtTD2A 
+> 提取码：msud 
 
 
 
