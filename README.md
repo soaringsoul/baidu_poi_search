@@ -20,8 +20,7 @@
 * 将采集结果导出为Excel文件  
 
 2.项目结构
->
-├── ChinaArea 全国省市数据  
+>├── ChinaArea 全国省市数据  
 │   ├── China_area.py  
 │   └── __init__.py  
 ├── Crawler 采集程序  
@@ -32,6 +31,7 @@
 │   ├── __init__.py  
 │   └── Mainwindow.py  
 ├── qtpandas
+
 ├── README.md 项目文档说明  
 ├── requirements.txt 依赖库文件    
 └── resource 资源文件  
@@ -39,7 +39,6 @@
     │   ├── run_main.gif   
     └── QSS  
         └── Mainwindow.qss  界面美化文件
->
 
 ## 准备工作
 
