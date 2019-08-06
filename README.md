@@ -46,10 +46,11 @@
 推荐使用virualenv 进行如下操作。
 
 ### 1 安装依赖库
-* python install -r  `requirements.txt`
+
+* pip install -r  `requirements.txt`
 
 
-### 2 安装最新版本的qtpandas 
+### 2 安装qtpandas 1.0.4
 
 qtpandas github地址：https://github.com/draperjames/qtpandas
 
@@ -58,7 +59,6 @@ qtpandas github地址：https://github.com/draperjames/qtpandas
 > 2018年8月，收到qtpandas作者回复，已经修复这个bug.
 可以直接在github上搜索qtpandas，然后 ```pip install .```安装，或者```python setup.py```
 > 注意还是要下载到本地安装，不要直接使用`pip install qtpandas `安装。
-> 
 
 
 
