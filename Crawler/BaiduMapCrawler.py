@@ -32,7 +32,6 @@ class BdMapCrawler(QtCore.QThread):
         print('run')
         try:
             self.result = []
-            data_list = []
             page = 0
             keys = [
                 'name',
@@ -77,7 +76,7 @@ class BdMapCrawler(QtCore.QThread):
                 self.page_done_signal.emit(
                     '当前城市【%s】' %
                     self.city +
-                    '正在抓取第--' +
+                    '正在查询第--' +
                     str(page) +
                     '--页')
                 page += 1
@@ -113,7 +112,7 @@ class BdMapCrawler(QtCore.QThread):
         # 解析请求结果
         data_json = res.json()
         data_pois = data_json['content']
-        # 打印抓取到的百度地图pois数据
+        # 打印查询到的百度地图 pois 数据
         df_lst = []
         for dict_here in data_pois:
             print_list = [

@@ -1,18 +1,13 @@
 # 导入python 自带库
-import json
 import os
 import time
 
-import openpyxl
-import pandas as pd
-import requests
 from ChinaArea.China_area import province_dict, cities_dict, city_code_dict
 from Crawler.BaiduMapCrawler import BdMapCrawler
 # 导入自定义模块
 from Mainwindow.Mainwindow import Ui_MainWindow
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtCore import pyqtSlot
-from PyQt5.QtGui import QIcon
 from pandas import DataFrame
 from qtpandas.models.DataFrameModel import DataFrameModel
 
@@ -21,7 +16,7 @@ class BaiduMapCrawler_main(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
         super(BaiduMapCrawler_main, self).__init__()
         self.setupUi(self)
-        self.setWindowTitle("百度地图数据采集工具_by_夜雨微寒")
+        self.setWindowTitle("百度地图数据查询工具_by_夜雨微寒")
         self.setWindowIcon(QtGui.QIcon(r'./resource/image/spider3.png'))
         self.result = []
 
@@ -128,7 +123,7 @@ class BaiduMapCrawler_main(QtWidgets.QMainWindow, Ui_MainWindow):
     def write_to_excel(self, df):
         filename = time.strftime("%Y-%m-%d_%Hh_%Mm_%Ss") + '.xlsx'
         df.to_excel(filename, index=False)
-        print("抓取数据已经写入到本地！")
+        print("查询数据已经写入到本地！")
 
     def openFile(self):
         DirName = QtWidgets.QFileDialog.getExistingDirectory(
@@ -139,7 +134,7 @@ class BaiduMapCrawler_main(QtWidgets.QMainWindow, Ui_MainWindow):
         try:
             fileName = self.FilelineEdit.text()
             if fileName in ['', "文件名.xlsx"]:
-                fileName = time.strftime("%Y-%m-%d_%Hh_%Mm_%Ss") + '采集结果.xlsx'
+                fileName = time.strftime("%Y-%m-%d_%Hh_%Mm_%Ss") + '查询结果.xlsx'
 
             fileName_path = self.DirlineEdit.text()
             fileName_path = os.path.join(fileName_path, fileName)
